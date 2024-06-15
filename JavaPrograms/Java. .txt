@@ -1,0 +1,115 @@
+JAVA : 
+
+1. JAVA OUTPUT
+	- PRINT TEXT
+
+2. VARIABLES
+
+3. DATA TYPES
+	- PRIMITIVE DATA TYPE
+	- NON-PRIMITIVE DATA TYPE
+
+4. JAVA NUMBERS
+
+5. JAVA CHARACTERS
+
+6. TYPE CASTING
+
+7. OPERATORS
+	- ARITHMETIC OPERATORS
+	- ASSIGNMENT OPERATORS
+	- LOGICAL OPERATORS
+	- COMPARISON OPERATORS
+	- BITWISE OPERATORS
+
+8. JAVA STRINGS
+	- STRING LENGTH
+	- FINDING A CHAR IN A STRING
+
+9. STRING CONCATENATION
+
+10. ADDING NUMBER AND STRING
+
+11. STRING SPECIAL CHARACTERS
+
+12. JAVA MATH
+	- RANDOM NUMBERS
+
+13. BOOLEAN VALUES
+	- BOOLEAN EXPRESSIONS
+
+14. JAVA IF ...ELSE
+	- CONDITIONS AND IF STATEMENTS
+	- JAVA ELSE
+	- JAVA ELSE IF STATEMENT
+
+15. JAVA BREAK STATEMENT
+	- BREAK KEYWORD
+	- DEFAULT KEYWORD
+
+16. JAVA WHILE LOOP
+	- DO/WHILE LOOP
+
+17. JAVA FOR LOOP
+
+18. JAVA NESTED LOOP
+
+19. JAVA FOR EACH LOOP
+
+20. BREAK AND CONTINUE
+
+21. JAVA ARRAYS
+
+22. JAVA ABSTRACTION
+
+23. JAVA INTERFACE
+
+24. PATTERNS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JAVA  
+
+ --www.w3schools.com
+
+-java syntax
+-java output
+-java comments
+-java data types
+-java operators
+-java strings
+-java math
+-java booleans
+-java conditional statements
+-java switch
+-java loops 
+-java arrays
+-java user input     
+-Abstraction
+-Interface
+-Class
+-JVM
+-JRE
+-JDK
+-Basic Input and Output
+
+
+
+
+

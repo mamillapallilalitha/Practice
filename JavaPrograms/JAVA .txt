@@ -1,0 +1,339 @@
+JAVA : 
+                    - it is case sensitive
+
+
+
+1...COMMENTS:
+                
+
+                    - it  makes easier to read and understand the code for future reference
+                    - these are completely ignored by the java compilers.
+                    - the single line comments starts with '//'
+                    - multiple line comments start with '/*' and ends with '*/' i.e, :  '/*.....*/'.
+                    - comments are used for debugging purposes
+
+
+
+2...VARIABLES : 
+
+                    - type variableName = value;   (int mynumber = 12;) & (int age =45; )
+                    -it is a location in memory (storage area) to hold data.
+                    - each variable should be given a unique name (identifier).
+                    - example : int age =45;    i.e, : here age is a variable of int data type and ew have assigned value 45 to it 
+                    - variables must start with - a LETTER  and can contains a UNDERSCORE-'_'or a DOLLER-'$' signs.
+
+
+
+3...LITERALS : 
+
+                    -they are fixed values , they can be used directly in code. For example : int a =6; ,float b =4.5 , char ='v'.
+          
+           INTEGER LITERALS :
+                           - Integer literals are numeric values (associated with numbers) without any fractional or exponential part. There are 4 types of integer literals in Java:
+
+binary (base 2)                 -int binaryNumber = 0b10010;    //0b represents binary
+decimal (base 10)              -int decNumber = 45;
+octal (base 8)                    -int octalNumber = 027;             // octal value starts with   0
+hexadecimal (base 16)      -int hexNumber = 0x2F;           // 0x represents hexadecimal
+     
+
+           CHARACTER LITERALS :         
+                                - characters are enclosed with in single quotes 'v'.  For example :  char letter = 'v';
+
+           STRING LITERALS : 
+                                 - strings are enclosed with in double quotes - "mvr". For example : String str1 = "mvr";
+
+             BOOLEAN LITERALS : 
+                                 - boolean literals are used to initialize boolean data types. the boolean values are -TRUE or FALSE . For example : boolean flag1 = false;
+
+
+
+
+4...DATA TYPES :
+             
+                        - data types specify the type of data that can be stored inside variables in Java.
+                        -Java is a statically-typed language. This means that all variables must be declared before they can be used.
+                        - in java there are 8 types of primitive data types (predefined).
+
+            1.BOOLEAN DATA TYPE : 
+                                         -True or False values
+      
+            2. BYTE DATA TYPE:
+                                          -the byte data type can have values from -128 to 127 
+                                          -it is an 8-bit signed two's complement integer (default value is :0)
+                                          - the variable values will be within -128 to 127,it is used instead of int to save memory.   
+             
+             3. SHORT DATA TYPE :
+                                           -the short data type can have the values from -32768 to 32767
+                                           -it is an 16 bit signed two's complement integer ( default value is :0)
+                                           -variable values will be within -32768 to 32767 uses instead of (int , long) data types.
+
+
+            4. INT DATA TYPE : 
+                                           - range of int data type values are -2^31 to (2^31)-1
+                                           - 32-bit signed two's complement integer ( default value is :0)
+
+
+            5. LONG DATA TYPE :  
+                                            -range of long data type is -2^63 to (2^63)-1
+                                            - 64-bit signed two's complement integer ( default value is :0)
+                                            -the use of L at the end of long data type(-42332200000). This represents that it's an integer of the long type.
+
+
+            6. DOUBLE DATA TYPE :
+                                             -The double data type is a double-precision 64-bit floating-point.
+                                              -It should never be used for precise values such as currency.
+                                              -Default value: 0.0 (0.0d)
+
+             7. FLOAT DATA TYPE :
+                                              -The float data type is a single-precision 32-bit floating-point. 
+                                              - It should never be used for precise values such as currency.
+                                              - Default value: 0.0 (0.0f)
+                                              -the use of (f) at the end of float data type (94.4f). it identifies that it is a float type.
+
+              8. CHAR DATA TYPE : 
+                                              - it prints the ASCII values
+                                              -  the Unicode value of A is \u0041. Hence, we get A as the output.
+                                              -For example : char letter1 = '9';
+                                                                                (letter1);             //prints 9
+                                                                         char letter2 = 65;
+                                                                                 (letter2);            //prints A
+
+         
+
+
+
+
+5...JAVA STRINGS : 
+                                            - a string is a sequence of characters.
+                                            - to represent string we use double quotes in java.
+                                            - For example : String type = "Java programming";
+                                            -string variable named type. The variable is initialized with the string Java Programming.
+
+         -OPERATORS IN JAVA : 
+                    1.  THE LENGTH OF A STRING : 
+                                            - To find the length of a string, we use the length() method.
+                                            - it includes all the type of characters that are mentioned in double quotes.
+                                            - For example    String greet = "Hello! World";
+                                                                      System.out.println("String: " + greet);                                              
+                                                                      int length = greet.length();
+                                                                      System.out.println("Length: " + length);
+
+                                           here the output will be 12.
+
+
+                     2. JOIN TWO JAVA STRINGS : 
+                                              - to join two strings in java we use the concat() method.
+                                              - FOr example     String first = "Java ";
+                                                                          System.out.println("First String: " + first);
+                                                                          String second = "Programming";
+                                                                          System.out.println("Second String: " + second);
+                                                                          String joinedString = first.concat(second);
+                                                                          System.out.println("Joined String: " + joinedString);
+
+
+                      3. COMPARE TWO JAVA STRINGS :
+                                              - in java we can make comparision between two strings using "equals() "method
+                                              - if two strings are equal then it returns true ,else it returns false.
+
+
+
+
+                    4. JAVA STRINGS ARE IMMUTABLE : 
+                                              -In Java, strings are immutable. This means once we create a string, we cannot change that string.
+                                                            1.JVM takes the first string "Hello! "
+                                                            2.creates a new string by adding "World" to the first string
+                                                            3.assigns the new string "Hello! World" to the example variable
+                                                            4.The first string "Hello! " remains unchanged
+
+                                                       
+
+                     5.CREATING STRING USING THE NEW KEY WORD :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+METHODS OF JAVA STRING : 
+
+
+Besides those mentioned above, there are various string methods present in Java. Here are some of those methods:
+
+Methods	Description
+contains()	                                  Checks whether the string contains a substring.
+substring()                                         Returns the substring of the string.
+join()	                                          Joins the given strings using the delimiter.
+replace()	                                          Replaces the specified old character with the specified new character.
+replaceAll()	                                  Replaces all substrings matching the regex pattern.
+replaceFirst()	                                  Replaces the first matching substring.
+charAt()	                                          Returns the character present in the specified location.
+getBytes()	                                  Converts the string to an array of bytes.
+indexOf()	                                          Returns the position of the specified character in the string.
+compareTo()	                                  Compares two strings in the dictionary order.
+compareToIgnoreCase()	                  Compares two strings, ignoring case differences.
+trim()	                                          Removes any leading and trailing whitespaces.
+format()	                                          Returns a formatted string.
+split()	                                          Breaks the string into an array of strings.
+toLowerCase()	                                  Converts the string to lowercase.
+toUpperCase()	                                  Converts the string to uppercase.
+valueOf()	                                          Returns the string representation of the specified argument.
+toCharArray()	                          Converts the string to a char array.
+matches()                                          Checks whether the string matches the given regex.
+startsWith()	                                  Checks if the string begins with the given string.
+endsWith()	                                  Checks if the string ends with the given string.
+isEmpty()                          	          Checks whether a string is empty or not.
+intern() 	                                          Returns the canonical representation of the string.
+contentEquals()	                          Checks whether the string is equal to charSequence.
+hashCode()	                                  Returns a hash code for the string.
+subSequence()	                                  Returns a subsequence from the string.
+
+
+
+
+
+
+
+JAVA OPERATORS :
+   
+                           1.Arithmetic Operators
+                           2.Assignment Operators
+                           3.Relational Operators
+                          4.Logical Operators
+                          5.Unary Operators
+                          6.Bitwise Operators
+
+       1. ARITHMETIC OPERATORS : 
+                                   
+              +         -addition
+              -          -subtraction
+             *          -multiplication
+              /         -division
+              %        -modulo operation (Remainder after division)  
+
+        2. ASSIGNMENT OPERATOR : 
+         
+            = , += , -= , *= , /= , %= .
+ 
+        3. RELATIONAL OPERATORS : 
+
+
+           ==           - is equal to
+           !=            - not equal to
+           >             - greater than
+           <             - less than
+           >=           - greater than or equal to
+           <=           - less than or equal to
+
+
+         4. LOGICAL OPERATOR : 
+                  
+           &&(Logical AND)                   true if both expressions are true
+           ||(Logical OR)                          true if any one of the expression is true
+           !(Logical NOT)                        true if the expression is false
+
+
+        5. UNARY OPERATORS : 
+
+            +                   -Unary plus: not necessary to use since numbers are positive without using it
+           -                     -Unary minus: inverts the sign of an expression
+          ++                   -Increment operator: increments value by 1
+           --                    -Decrement operator: decrements value by 1
+           !	                -Logical complement operator: inverts the value of a boolean
+
+
+         6. INCREMENT DECREMENT : 
+              
+              ++              -increases the value of the aperand by 1.
+               --               - decreases the value of the aperand by 1.
+
+          7. BITWISE OPERATORS : 
+              
+             ~	                Bitwise Complement
+             <<	        Left Shift
+             >>	        Right Shift
+           >>>	       Unsigned Right Shift
+             &	                Bitwise AND
+             ^	                Bitwise exclusive OR
+
+
+
+
+03-06-2024 :
+
+
+JAVA CLASS AND OBJECTS :
+
+       Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+
+A Class is like an object constructor, or a "blueprint" for creating objects.      
+
+
+
+to create a class, we use 'class' keyword. 
+- The class name should always start with uppercase.
+-The name of the java file should match the class name.
+For example : a class named "Main" with a variable x:
+
+public class Main {
+  int x = 5;
+  public static void main(String[] args) {
+    Main myObj = new Main();        // we can create multiple objects.
+    System.out.println(myObj.x);
+  }
+}
+
+
+
+USING MULTIPLE CLASSES:
+
+
+You can also create an object of a class and access it in another class. This is often used for better organization of classes (one class has all the attributes and methods, while the other class holds the main() method (code to be executed)).
+
+For example :
+
+ public class Main {
+  int x = 5;
+ class Second {
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+JAVA KEYWORDS :
+
+Keywords are predefined, reserved words used in Java programming that have special meanings to the compiler. 
+
+Java Keywords List
+
+1. abstract         2. assert	                3. boolean         4. break 	           5. byte
+6. case	          7. catch                 8. char              9. class	          10. const
+11. continue      12. default              13. do                14. double          15. else
+16. enum	         17. extends             18. final	        19. finally          20. float
+21. for	         22. goto	               23. if                 24. implements 25. import
+26. instanceof	 27. int	               28. interface    29. long	          30. native
+31. new	         32. package           33. private       34. protected	  35. public
+36. return	 37. short	               38. static	       39. strictfp	  40. super
+41. switch	 42. synchronized  43. this	       44. throw	          45. throws
+46. transient	 47. try	               48. void	       49. volatile	  50. while

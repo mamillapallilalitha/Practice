@@ -1,0 +1,50 @@
+java -05-06-2024. 
+https://www.w3schools.com/java/java_methods.asp#gsc.tab=0
+
+java methods :
+
+              - a method is a block of code which only runs when it is called.
+             - You can pass data, known as parameters, into a method.
+             - Methods are used to perform certain actions, and they are also known as FUNCTION.
+             - we use methods to reduce code : define the code once, and use it many times.
+
+
+CREATING A METHOD : 
+              - a method must be declared within a class.
+              - it is defined with the name of the method, followed by parentheses ().
+
+For example :
+
+public class Main {
+  static void myMethod() {
+    // code to be executed
+  }
+}
+
+
+
+
+JAVA PARAMETERS : 
+
+  - parameters and arguments : 
+             - information can be passed to methods as parameter. parameters act as variables inside the method.
+             - parameters are specified after the method name, inside the parantheses. 
+             - we can add as many parameters as we want, by just sepsrste them with a comma.
+
+For example :
+
+
+public class Main {
+  static void myMethod(String fname) {
+    System.out.println(fname + " Refsnes");
+  }
+
+  public static void main(String[] args) {
+    myMethod("Liam");
+    myMethod("Jenny");
+    myMethod("Anja");
+  }
+}
+// Liam Refsnes
+// Jenny Refsnes
+// Anja Refsnes

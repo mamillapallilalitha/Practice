@@ -1,0 +1,325 @@
+JAVA ABSTRACTION :
+ 
+                     - Data abstraction is the process of hiding certain details and showing only essential information to the user.                                 
+                     - Abstraction can be achieved with either abstract classes or interfaces
+                     - Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+                     - Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+                     - Abstraction can also be achieved with Interfaces
+                     - Why And When To Use Abstract Classes and Methods is To achieve security - hide certain details and only show the important details of an object.
+
+
+
+
+
+INTERFACES : 
+                       
+                  - it is the another way to acvieve abtraction in java.
+                  - Interface methods do not have a body - the body is provided by the "implement" class
+                  - an interface is a completely 'abstract class' that is used to group related methods with empty bodies.
+                  - To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class with the implements keyword (instead of extends). The body of the interface method is provided by the "implement" class:
+
+For example : 
+
+// Interface
+interface Animal {
+  public void animalSound(); // interface method (does not have a body)
+  public void sleep(); // interface method (does not have a body)
+}
+
+// Pig "implements" the Animal interface
+class Pig implements Animal {
+  public void animalSound() {
+    // The body of animalSound() is provided here
+    System.out.println("The pig says: wee wee");
+  }
+  public void sleep() {
+    // The body of sleep() is provided here
+    System.out.println("Zzz");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Pig myPig = new Pig();  // Create a Pig object
+    myPig.animalSound();
+    myPig.sleep();
+  }
+}
+
+
+
+MULTIPLE INTERFACES : 
+
+                      -to implement multiple interfaces we should separate them with a comma (,).
+
+
+For example :
+
+interface FirstInterface {
+  public void myMethod(); // interface method
+}
+
+interface SecondInterface {
+  public void myOtherMethod(); // interface method
+}
+
+class DemoClass implements FirstInterface, SecondInterface {
+  public void myMethod() {
+    System.out.println("Some text..");
+  }
+  public void myOtherMethod() {
+    System.out.println("Some other text...");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    DemoClass myObj = new DemoClass();
+    myObj.myMethod();
+    myObj.myOtherMethod();
+  }
+}
+
+
+
+
+
+JAVA CLASS AND OBJECTS :
+
+       Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+
+A Class is like an object constructor, or a "blueprint" for creating objects.      
+
+
+
+to create a class, we use 'class' keyword. 
+- The class name should always start with uppercase.
+-The name of the java file should match the class name.
+For example : a class named "Main" with a variable x:
+
+public class Main {
+  int x = 5;
+  public static void main(String[] args) {
+    Main myObj = new Main();        // we can create multiple objects.
+    System.out.println(myObj.x);
+  }
+}
+
+
+
+USING MULTIPLE CLASSES:
+
+
+You can also create an object of a class and access it in another class. This is often used for better organization of classes (one class has all the attributes and methods, while the other class holds the main() method (code to be executed)).
+
+For example :
+
+ public class Main {
+  int x = 5;
+ class Second {
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+
+
+
+
+JVM (JAVA VIRTUAL MACHINE) -
+                   - It is a virtual machine which runs programs which are compiled to the byte codes
+
+
+JDK (JAVA DEVELOPMENT KIT) -
+                   - JDK is a wrapper around the JRE and additionally contains the compiler, interpreter, debugger and other tools.
+                   - it gives with features to develop th program and also to run the programs.
+
+JRE (JAVA RUN-TIME ENVIORNMRNT) :
+                   - It is made up of class libraries, JVM and supporting files
+
+
+
+
+
+
+
+
+BASIC INPUT AND OUTPUT :
+
+print() - it prints string inside the double quotes.
+println() - by using ln to the print function the cursor moves to the beginning of the next line.
+
+-System.out.print();
+    _ here System is a class.
+    - out is a public static field : it accepts out[ut data.
+
+
+For example :
+
+import java.util.Scanner;
+
+class Input {
+    public static void main(String[] args) {
+    	
+        Scanner input = new Scanner(System.in);
+
+         //   Getting  int input	
+        System.out.print("Enter an integer: ");
+        int number = input.nextInt();
+        System.out.println("You entered " + number);
+
+        //  Getting float input
+        System.out.print("Enter float: ");
+        float myFloat = input.nextFloat();
+        System.out.println("Float entered = " + myFloat);
+    	
+        // Getting double input
+        System.out.print("Enter double: ");
+        double myDouble = input.nextDouble();
+        System.out.println("Double entered = " + myDouble);
+    	
+        // Getting String input
+        System.out.print("Enter text: ");
+        String myString = input.next();
+        System.out.println("Text entered = " + myString);
+    }
+}
+
+
+
+
+JAVA SCANNER CLASS : 
+
+               - The Scanner class of the java.util package is used to read input data from different sources like input streams, files, etc
+                   
+              - system.in is a parameter that is used to take input from the standard input
+
+
+nextInt()	                         reads an int value from the user
+nextFloat()	                 reads a float value form the user
+nextBoolean()	                 reads a boolean value from the user
+nextLine()	                 reads a line of text from the user
+next()	                         reads a word from the user
+nextByte()	                 reads a byte value from the user
+nextDouble()	                 reads a double value from the user
+nextShort()                      reads a short value from the user
+nextLong()	                 reads a long value from the user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
