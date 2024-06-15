@@ -1,0 +1,82 @@
+TODAYS TARGET - 30-05-2024
+
+JAVA :
+-Java Operators
+-Basic Input and Output
+
+02-06-2024 
+
+-Abstraction
+-Interface
+-Class
+-JVM
+-JRE
+-JDK
+-Basic Input and Output
+
+
+
+PYTHON :
+- Python Operators
+_Basic Input Output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed
