@@ -1,0 +1,8 @@
+cd														- change directory
+D: 	
+cd practice													- drive name
+git status		
+git add *	
+git commit -m "Added new programs"		
+git push origin head
+git branch						
