@@ -10,9 +10,10 @@ public class NumbersPattern {
 
 		for (i = 1; i <= n; i++) {
 
-			for (j = 1; j < i; j++)
+			for (j = 1; j < i; j++){
 				System.out.print(" ");
-
+			}
+			count = 0;
 			for (j = i; j <= n; j++) {
 				count++;
 				System.out.print(count);
@@ -24,9 +25,10 @@ public class NumbersPattern {
 
 		for (i = 1; i < n; i++) {
 
-			for (j = n - 1; j > i; j--)
+			for (j = n - 1; j > i; j--){
 				System.out.print(" ");
-				
+			}
+				count = 0;
 			for (j = 0; j <= i; j++) {
 				count++;
 				System.out.print(count);
